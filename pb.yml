@@ -4,3 +4,5 @@
     raw: apt-get update
   - name: install apache
     apt: name=apache2 state=latest
+  - name: apche2
+    service: name=apache2 state=started
