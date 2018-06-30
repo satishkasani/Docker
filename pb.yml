@@ -2,3 +2,5 @@
   tasks:
   - name: to update 
     raw: apt-get update
+  - name: install apache
+    apt: name=apache2 state=latest
