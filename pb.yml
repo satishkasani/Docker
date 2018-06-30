@@ -6,3 +6,6 @@
     apt: name=apache2 state=latest
   - name: apche2
     service: name=apache2 state=started
+  - name: to update
+    raw: apt-get update
+
